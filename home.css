@@ -552,12 +552,10 @@ align-self: stretch;
     cursor: pointer;
     margin-left: 8px;
     transform: rotate(180deg);
-    /* mặc định quay trái */
 }
 
 #chevron-right {
     transform: rotate(0deg);
-    /* quay lại phải */
 }
 
 .calendar-list {
@@ -629,8 +627,8 @@ button .btn-play{
 }
 
 #btn-contact {
-    width: auto 97px;
-    height: auto 50px;
+    width: 97px;
+    height: 50px;
     border: 1px solid #F58D68;
     border-radius: 16px;
     background-color: #FFFF;
@@ -648,8 +646,8 @@ button .btn-play{
 #btn-advise {
     cursor: pointer;
     padding: 12px 20px;
-    width: auto 163px;
-    height: auto 48px;
+    width: 163px;
+    height: 48px;
     border: 2px solid #DD673C;
     border-radius: 16px;
     box-shadow: 0 4px 0 0 #AD502F;
@@ -928,21 +926,17 @@ footer {
     overflow: hidden;
 }
 
-/* Lớp phủ background image */
 footer::before {
     content: '';
     position: absolute;
     inset: 0;
     background-image: url('../assets/backgroundFooter.png');
-    /* đường dẫn ảnh */
     background-size: cover;
     background-position: center;
     opacity: 0.15;
-    /* độ mờ của ảnh */
     z-index: 0;
 }
 
-/* Nội dung trong footer nằm trên ảnh */
 footer * {
     position: relative;
     z-index: 1;
